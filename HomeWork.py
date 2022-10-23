@@ -52,3 +52,24 @@
 # print(lst)
 # random.shuffle(lst)
 # print(lst)
+
+#------------------------------------------------------------------------------------
+
+# Task 5 - Список из N элементов, заполненный числами из промежутка [-N;N]. Найти произведение элементов на позициях, указанных в файле
+
+# from random import randint
+
+# n = int(input('Введите число N: '))
+# some_list = []
+# for _ in range(n):
+#     some_list.append(randint(-n, n))
+# print('Сгенерированный список: ',some_list)
+
+# with open('my_file.txt', 'r') as f:
+#     data = f.read()
+# lst = data.split()
+# print('Считанные позиции элементов: ', lst)
+# mult = 1
+# for i in range(0, len(lst)):
+#     mult *= some_list[int(lst[i])]
+# print('Произведение элементов: ', mult)
